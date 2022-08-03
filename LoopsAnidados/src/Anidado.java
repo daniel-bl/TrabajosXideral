@@ -16,9 +16,9 @@ public class Anidado {
 			}
 		}
 		if(positionX==-1 || positionY==-1) {
-			System.out.println("Value "+searchValue+" not found");
+			System.out.println("Valor "+searchValue+" No encontrado");
 		} else {
-			System.out.println("Value "+searchValue+" found at: " +
+			System.out.println("Valor "+searchValue+" encontrado en: " +
 					"("+positionX+","+positionY+")");
 		}
 	}
